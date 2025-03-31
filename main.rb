@@ -1,4 +1,4 @@
-require 'debug'
+# require 'debug'
 require 'time'
 Dir[File.join(__dir__, 'source/**/*.rb')].sort.each { |file| require_relative file }
 
